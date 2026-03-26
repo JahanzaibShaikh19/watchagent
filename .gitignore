@@ -1,0 +1,72 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Packaging / installers
+*.whl
+*.tar.gz
+
+# Logs and local runtime data
+*.log
+*.pid
+*.seed
+*.sqlite
+*.sqlite3
+*.db
+
+# Secrets / local env files
+.env
+.env.*
+!.env.example
+
+# Node / frontend (dashboard + landing)
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+# Vite dashboard outputs
+dashboard-ui/dist/
+
+# Next.js landing outputs
+watchagent-web/.next/
+watchagent-web/out/
+
+# Misc caches
+.cache/
+.temp/
+tmp/

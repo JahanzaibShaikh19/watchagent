@@ -1,0 +1,4 @@
+fastapi>=0.115.0
+uvicorn>=0.30.0
+stripe>=11.0.0
+sendgrid>=6.11.0
